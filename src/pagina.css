@@ -1,0 +1,18 @@
+.Pagina {
+    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    }
+
+.App {
+    flex: 1;
+    margin-bottom: 100vw;
+    }
+
+.Rodape{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+

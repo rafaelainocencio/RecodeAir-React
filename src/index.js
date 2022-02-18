@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Menu from './components/Menu'
+import Rodape from './components/Rodape';
+import './pagina.css'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div class="Pagina">
+      <React.StrictMode>
+      <App />
+    </React.StrictMode>
+   
+  </div>,
   document.getElementById('root')
 );
 
